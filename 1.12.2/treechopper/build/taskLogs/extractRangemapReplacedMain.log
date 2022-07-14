@@ -1,0 +1,37 @@
+Unsupposrted library path: /Users/giotje/Documents/kraken/personal/minecraft/1.12.2/treechopper/build/classes/api
+Unsupposrted library path: /Users/giotje/Documents/kraken/personal/minecraft/1.12.2/treechopper/build/resources/api
+Symbol range map extraction starting
+Processing 11 files
+startProcessing "treechopper/client/gui/GuiTCHFactory.java" md5: b3b5693552892fd87cb126b06829a071
+endProcessing "treechopper/client/gui/GuiTCHFactory.java"
+
+startProcessing "treechopper/common/command/TCHCommand.java" md5: 7f3a0c0cc96ceb3a81fe2f1b6d077b99
+endProcessing "treechopper/common/command/TCHCommand.java"
+
+startProcessing "treechopper/common/config/ConfigurationHandler.java" md5: b5616b612f7bae6a8ae528090002ddb9
+endProcessing "treechopper/common/config/ConfigurationHandler.java"
+
+startProcessing "treechopper/common/handler/EventHandler.java" md5: f74908cde72f0dfcbe940c7365a01f71
+endProcessing "treechopper/common/handler/EventHandler.java"
+
+startProcessing "treechopper/common/handler/TreeHandler.java" md5: c08e7225f3d082f6219ac8ebf04849f4
+endProcessing "treechopper/common/handler/TreeHandler.java"
+
+startProcessing "treechopper/common/network/ClientSettingsMessage.java" md5: 074a57a262cfecbc16bc8d1edb555bd0
+endProcessing "treechopper/common/network/ClientSettingsMessage.java"
+
+startProcessing "treechopper/common/network/ServerSettingsMessage.java" md5: f5946446695ba75fc3e37a837ee22441
+endProcessing "treechopper/common/network/ServerSettingsMessage.java"
+
+startProcessing "treechopper/common/tree/Tree.java" md5: 3cc3db1043881803dc487778d095575b
+endProcessing "treechopper/common/tree/Tree.java"
+
+startProcessing "treechopper/core/TreeChopper.java" md5: 1033e588147b72935cc5f411f6faf0aa
+endProcessing "treechopper/core/TreeChopper.java"
+
+startProcessing "treechopper/proxy/CommonProxy.java" md5: f8b5420b32888de2bec8a6cdaf2a8331
+endProcessing "treechopper/proxy/CommonProxy.java"
+
+startProcessing "treechopper/proxy/ServerProxy.java" md5: dc2a8f488e572d7c9b93f4db37fade17
+endProcessing "treechopper/proxy/ServerProxy.java"
+

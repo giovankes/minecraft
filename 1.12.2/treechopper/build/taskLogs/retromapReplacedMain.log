@@ -1,0 +1,305 @@
+Processing 11 files
+Start Processing: treechopper/client/gui/GuiTCHFactory.java
+FOUND CONSTR method treechopper/client/gui/GuiTCHFactory/GuiTCHFactory ()V treechopper/client/gui/GuiTCHFactory
+Import: net.minecraft.client.gui.GuiScreen
+Import: net.minecraftforge.common.config.ConfigElement
+Import: net.minecraftforge.fml.client.DefaultGuiFactory
+Import: net.minecraftforge.fml.client.config.GuiConfig
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.core.TreeChopper
+End  Processing: treechopper/client/gui/GuiTCHFactory.java
+
+Start Processing: treechopper/common/command/TCHCommand.java
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[816,823]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getAliases ()Ljava/util/List;[898,908]::getAliases->func_71514_a
+Rename method net/minecraft/command/ICommand/getUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[986,994]::getUsage->func_71518_a
+Rename method net/minecraft/command/ICommand/checkPermission (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z[1151,1166]::checkPermission->func_184882_a
+Rename method net/minecraft/command/ICommand/execute (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1262,1269]::execute->func_184881_a
+Rename method net/minecraft/command/ICommandSender/getCommandSenderEntity ()Lnet/minecraft/entity/Entity;[1585,1607]::getCommandSenderEntity->func_174793_f
+Rename method net/minecraft/command/CommandBase/parseBoolean (Ljava/lang/String;)Z[1620,1632]::parseBoolean->func_180527_d
+Rename method net/minecraft/command/ICommandSender/canUseCommand (ILjava/lang/String;)Z[1762,1775]::canUseCommand->func_70003_b
+Rename method net/minecraft/command/CommandBase/getRequiredPermissionLevel ()I[1780,1806]::getRequiredPermissionLevel->func_82362_a
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1801,1808]::getName->func_71517_b
+Rename method net/minecraft/command/CommandBase/parseBoolean (Ljava/lang/String;)Z[2305,2317]::parseBoolean->func_180527_d
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[2395,2406]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[2666,2677]::sendMessage->func_145747_a
+Rename method net/minecraft/command/CommandBase/parseBoolean (Ljava/lang/String;)Z[3106,3118]::parseBoolean->func_180527_d
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[3197,3208]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[3470,3481]::sendMessage->func_145747_a
+Rename method net/minecraft/command/CommandBase/parseBoolean (Ljava/lang/String;)Z[3914,3926]::parseBoolean->func_180527_d
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[4005,4016]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[4281,4292]::sendMessage->func_145747_a
+Rename method net/minecraft/command/CommandBase/parseBoolean (Ljava/lang/String;)Z[4867,4879]::parseBoolean->func_180527_d
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[4958,4969]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[5240,5251]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[5807,5818]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommand/getTabCompletions (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;[6018,6035]::getTabCompletions->func_184883_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[6168,6200]::getListOfStringsMatchingLastWord->func_71530_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[6355,6366]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[6450,6461]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[6680,6691]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[6930,6941]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[7171,7182]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[7407,7418]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[7696,7707]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[7791,7802]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[7979,7990]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[8180,8191]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[8370,8381]::sendMessage->func_145747_a
+Rename method net/minecraft/command/ICommandSender/getServer ()Lnet/minecraft/server/MinecraftServer;[8665,8674]::getServer->func_184102_h
+Rename method net/minecraft/command/ICommandSender/getServer ()Lnet/minecraft/server/MinecraftServer;[8699,8708]::getServer->func_184102_h
+Rename method net/minecraft/server/MinecraftServer/isSinglePlayer ()Z[8715,8729]::isSinglePlayer->func_71264_H
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[8751,8757]::format->func_135052_a
+Import: com.google.common.collect.Lists
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.command.CommandBase
+Import: net.minecraft.command.CommandException
+Import: net.minecraft.command.ICommandSender
+Import: net.minecraft.command.WrongUsageException
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextComponentTranslation
+Import: net.minecraft.util.text.TextFormatting
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.common.network.ClientSettingsMessage
+Import: treechopper.core.TreeChopper
+Import: treechopper.proxy.CommonProxy
+Import: javax.annotation.Nullable
+Import: java.util.List
+End  Processing: treechopper/common/command/TCHCommand.java
+
+Start Processing: treechopper/common/config/ConfigurationHandler.java
+New Key: class net/minecraftforge/fml/client/event/ConfigChangedEvent
+Import: com.google.common.collect.ImmutableList
+Import: net.minecraftforge.common.config.Configuration
+Import: net.minecraftforge.fml.client.event.ConfigChangedEvent
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: treechopper.core.TreeChopper
+Import: java.io.File
+Import: java.util.ArrayList
+Import: java.util.List
+End  Processing: treechopper/common/config/ConfigurationHandler.java
+
+Start Processing: treechopper/common/handler/EventHandler.java
+New Key: class net/minecraftforge/fml/common/gameevent/PlayerEvent
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.gameevent.PlayerEvent
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.common.network.ServerSettingsMessage
+Import: treechopper.core.TreeChopper
+End  Processing: treechopper/common/handler/EventHandler.java
+
+Start Processing: treechopper/common/handler/TreeHandler.java
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1254,1267]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1278,1286]::getBlock->func_177230_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2336,2340]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2368,2372]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2400,2404]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2564,2568]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2592,2596]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2624,2628]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2792,2796]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2824,2828]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2856,2860]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3020,3024]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3048,3052]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[3080,3084]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3248,3252]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3280,3284]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[3312,3316]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3480,3484]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3512,3516]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[3544,3548]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3712,3716]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3744,3748]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[3776,3780]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[3944,3948]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[3976,3980]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[4008,4012]::getZ->func_177952_p
+Rename method net/minecraft/util/math/Vec3i/getX ()I[4176,4180]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[4204,4208]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[4236,4240]::getZ->func_177952_p
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4594,4607]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4618,4626]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4706,4719]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4730,4738]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4761,4774]::getBlockState->func_180495_p
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4978,4991]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5002,5010]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[5018,5036]::getUnlocalizedName->func_149739_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5157,5170]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5181,5189]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5212,5225]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/destroyBlock (Lnet/minecraft/util/math/BlockPos;Z)Z[5752,5764]::destroyBlock->func_175655_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5816,5829]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5840,5848]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[5856,5871]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5893,5906]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[5947,5960]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/World/destroyBlock (Lnet/minecraft/util/math/BlockPos;Z)Z[6420,6432]::destroyBlock->func_175655_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6488,6501]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6512,6520]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[6528,6543]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6565,6578]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[6623,6636]::setBlockToAir->func_175698_g
+Rename method net/minecraft/util/math/Vec3i/getX ()I[6882,6886]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[6913,6917]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[6940,6944]::getZ->func_177952_p
+Rename method net/minecraft/util/NonNullList/create ()Lnet/minecraft/util/NonNullList;[7086,7092]::create->func_191196_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7115,7128]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7139,7147]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7196,7209]::getBlockState->func_180495_p
+Rename method net/minecraft/entity/EntityLivingBase/setHeldItem (Lnet/minecraft/util/EnumHand;Lnet/minecraft/item/ItemStack;)V[7429,7440]::setHeldItem->func_184611_a
+Rename method net/minecraft/item/ItemStack/onItemUse (Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumHand;Lnet/minecraft/util/EnumFacing;FFF)Lnet/minecraft/util/EnumActionResult;[7552,7561]::onItemUse->func_179546_a
+Import: net.minecraft.block.Block
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.EnumHand
+Import: net.minecraft.util.NonNullList
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.world.World
+Import: net.minecraft.world.WorldServer
+Import: net.minecraftforge.common.util.FakePlayer
+Import: net.minecraftforge.common.util.FakePlayerFactory
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.common.tree.Tree
+Import: java.util.*
+End  Processing: treechopper/common/handler/TreeHandler.java
+
+Start Processing: treechopper/common/network/ClientSettingsMessage.java
+FOUND CONSTR method treechopper/common/network/ClientSettingsMessage/ClientSettingsMessage ()V treechopper/common/network/ClientSettingsMessage
+FOUND CONSTR method treechopper/common/network/ClientSettingsMessage/ClientSettingsMessage (ZZ)V treechopper/common/network/ClientSettingsMessage
+Rename field net/minecraft/network/NetHandlerPlayServer/player[1215,1221]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[1230,1244]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[1263,1279]::addScheduledTask->func_152344_a
+Import: io.netty.buffer.ByteBuf
+Import: net.minecraft.util.IThreadListener
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: treechopper.common.config.ConfigurationHandler
+End  Processing: treechopper/common/network/ClientSettingsMessage.java
+
+Start Processing: treechopper/common/network/ServerSettingsMessage.java
+FOUND CONSTR method treechopper/common/network/ServerSettingsMessage/ServerSettingsMessage ()V treechopper/common/network/ServerSettingsMessage
+FOUND CONSTR method treechopper/common/network/ServerSettingsMessage/ServerSettingsMessage (ZZ)V treechopper/common/network/ServerSettingsMessage
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1241,1253]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[1274,1290]::addScheduledTask->func_152344_a
+Import: io.netty.buffer.ByteBuf
+Import: net.minecraft.client.Minecraft
+Import: net.minecraft.util.IThreadListener
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: treechopper.common.config.ConfigurationHandler
+End  Processing: treechopper/common/network/ServerSettingsMessage.java
+
+Start Processing: treechopper/common/tree/Tree.java
+FOUND CONSTR method treechopper/common/tree/Tree/Tree ()V treechopper/common/tree/Tree
+Import: net.minecraft.util.math.BlockPos
+Import: java.util.HashSet
+Import: java.util.Set
+End  Processing: treechopper/common/tree/Tree.java
+
+Start Processing: treechopper/core/TreeChopper.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class treechopper/common/network/ServerSettingsMessage
+New Key: class treechopper/common/network/ClientSettingsMessage
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.relauncher.Side
+Import: treechopper.common.command.TCHCommand
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.common.handler.EventHandler
+Import: treechopper.common.network.ClientSettingsMessage
+Import: treechopper.common.network.ServerSettingsMessage
+Import: treechopper.proxy.CommonProxy
+Import: java.io.File
+Import: static treechopper.core.TreeChopper.*
+End  Processing: treechopper/core/TreeChopper.java
+
+Start Processing: treechopper/proxy/CommonProxy.java
+FOUND CONSTR method treechopper/proxy/PlayerInteract/PlayerInteract (Lnet/minecraft/util/math/BlockPos;FI)V treechopper/proxy/PlayerInteract
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[1581,1592]::sendMessage->func_145747_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[1629,1635]::format->func_135052_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1696,1709]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[1734,1742]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[1750,1768]::getUnlocalizedName->func_149739_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[1807,1818]::sendMessage->func_145747_a
+Rename method net/minecraft/client/resources/I18n/format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;[1855,1861]::format->func_135052_a
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[1932,1951]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[1949,1967]::getUnlocalizedName->func_77977_a
+Rename method net/minecraft/entity/Entity/isSneaking ()Z[2110,2120]::isSneaking->func_70093_af
+Rename method net/minecraft/entity/Entity/isSneaking ()Z[2245,2255]::isSneaking->func_70093_af
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[3329,3348]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/isItemStackDamageable ()Z[3346,3367]::isItemStackDamageable->func_77984_f
+New Key: class net/minecraftforge/event/world/BlockEvent
+Rename method net/minecraft/entity/player/EntityPlayer/isCreative ()Z[4818,4828]::isCreative->func_184812_l_
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[4861,4880]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/isItemStackDamageable ()Z[4878,4899]::isItemStackDamageable->func_77984_f
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[4950,4969]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getItemDamage ()I[4967,4980]::getItemDamage->func_77952_i
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[5103,5122]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/setItemDamage (I)V[5120,5133]::setItemDamage->func_77964_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5309,5322]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5333,5341]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[5349,5367]::getUnlocalizedName->func_149739_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5410,5423]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5434,5442]::getBlock->func_177230_c
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[5613,5632]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/isEmpty ()Z[5630,5637]::isEmpty->func_190926_b
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[5736,5755]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5753,5760]::getItem->func_77973_b
+Rename method net/minecraft/item/Item/getUnlocalizedName ()Ljava/lang/String;[5768,5786]::getUnlocalizedName->func_77658_a
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[5885,5904]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5902,5909]::getItem->func_77973_b
+Import: net.minecraft.client.resources.I18n
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.item.ItemAxe
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.text.TextComponentTranslation
+Import: net.minecraft.world.World
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: net.minecraftforge.event.world.BlockEvent
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.common.handler.TreeHandler
+Import: java.util.HashMap
+Import: java.util.Map
+Import: java.util.UUID
+End  Processing: treechopper/proxy/CommonProxy.java
+
+Start Processing: treechopper/proxy/ServerProxy.java
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[592,603]::sendMessage->func_145747_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[672,685]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[710,718]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/getUnlocalizedName ()Ljava/lang/String;[726,744]::getUnlocalizedName->func_149739_a
+Rename method net/minecraft/command/ICommandSender/sendMessage (Lnet/minecraft/util/text/ITextComponent;)V[783,794]::sendMessage->func_145747_a
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[879,898]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getUnlocalizedName ()Ljava/lang/String;[896,914]::getUnlocalizedName->func_77977_a
+Rename method net/minecraft/entity/Entity/isSneaking ()Z[1057,1067]::isSneaking->func_70093_af
+Rename method net/minecraft/entity/Entity/isSneaking ()Z[1192,1202]::isSneaking->func_70093_af
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[1490,1509]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getMaxDamage ()I[1507,1519]::getMaxDamage->func_77958_k
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[1556,1575]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/getItemDamage ()I[1573,1586]::getItemDamage->func_77952_i
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[2156,2175]::getHeldItemMainhand->func_184614_ca
+Rename method net/minecraft/item/ItemStack/isItemStackDamageable ()Z[2173,2194]::isItemStackDamageable->func_77984_f
+Import: net.minecraft.util.text.TextComponentTranslation
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: treechopper.common.config.ConfigurationHandler
+Import: treechopper.common.handler.TreeHandler
+End  Processing: treechopper/proxy/ServerProxy.java
+
